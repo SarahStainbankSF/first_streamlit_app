@@ -50,4 +50,4 @@ streamlit.text("What would you like to add?")
 
 new_fruit = streamlit.text_input
 
-streamlit.txt ("Thanks for adding"+ new_fruit)
+streamlit.text ("Thanks for adding"+ new_fruit)
