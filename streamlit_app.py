@@ -46,6 +46,6 @@ streamlit.dataframe(my_data_rows)
 
 # Additional lab
 
-new_fruit = streamlit.text_input(label="What would you like to add?, value="")
+new_fruit = streamlit.text_input('What would you like to add', '')
 
 streamlit.write('Thanks for adding ', new_fruit)
